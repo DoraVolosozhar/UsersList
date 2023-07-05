@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:users_list/ui/users_list.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(UsersList.render());
 }
 
 class MyApp extends StatelessWidget {
